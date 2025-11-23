@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="content">
+        <div class="sidebar">
+            <h1>hi</h1>
+        </div>
+        <div class="main">
+            <div class="notes">
+
+            </div>
+            <div class="addButton">
+                <button id="addNote">+</button>
+            </div>
+        </div>
+    </div>
+    <dialog id="noteadder">
+        <form id="editnote">
+            <button id="exit">Exit</button>
+            <input type="text" id="title" placeholder="Title">
+            <input type="text" id="description" placeholder="Description">
+            <label>Priority:</label>
+            <select name="priority" id="priority">
+                <option value="N"> None</option>
+                <option value="P1"> P1 </option>
+                <option value="P2"> P2 </option>
+                <option value="P3"> P3 </option>
+                <option value="P4"> P4 </option>
+            </select>
+            <button id="submit">Submit</button>
+        </form>
+    </dialog>
+        <dialog id="noteeditor">
+        <form id="editnote">
+            <button id="exit">Exit</button>
+            <input type="text" id="title" placeholder="Title">
+            <input type="text" id="description" placeholder="Description">
+            <label>Priority:</label>
+            <select name="priority" id="priority">
+                <option value="N"> None</option>
+                <option value="P1"> P1 </option>
+                <option value="P2"> P2 </option>
+                <option value="P3"> P3 </option>
+                <option value="P4"> P4 </option>
+            </select>
+            <button id="submit">Submit</button>
+        </form>
+    </dialog>
+</body>
+</html>
